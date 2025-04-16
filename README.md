@@ -1,28 +1,28 @@
-# QVT Box – Application Flutter
+# 📦 QVT Box
 
-**QVT Box** est une application Flutter conçue pour améliorer la qualité de vie au travail en permettant aux entreprises de proposer des box bien-être personnalisées à leurs salariés.
+**QVT Box** est une application Flutter innovante dédiée à la Qualité de Vie au Travail (QVT). Elle propose des solutions personnalisées pour améliorer le bien-être des salariés, en s'appuyant sur la réglementation sociale française.
 
 ## 🚀 Fonctionnalités principales
 
-- Connexion entreprise / salarié
-- Sélection de box par thématique (Télétravail, Bureau, Retraite, Itinérant, etc.)
-- Personnalisation des box (choix de produits physiques et virtuels)
-- Ajout de produits payants en option via la boutique
-- Rappels bien-être et actions humaines
-- Système d’abonnement entreprise
+- 📦 Création de box personnalisées selon les métiers
+- 🌿 Intégration de produits bien-être : patchs, baumes, snacks, etc.
+- 🛠️ Personnalisation en fonction des besoins spécifiques des entreprises
+- 📊 Tableau de bord pour suivre l'impact des actions QVT
 
-## 📦 Structure technique
+## 🛠️ Technologies utilisées
 
-- Framework : Flutter 3.29.2
-- Plateformes cibles : Web + Mobile (iOS / Android via PWA)
-- Backend : Firebase (authentification, base de données, hébergement)
-- Langage : Dart
-- Design : Logo et charte inspirés de QVT Box
+- [Flutter](https://flutter.dev/) – Développement multiplateforme
+- [Firebase](https://firebase.google.com/) – Authentification et base de données
+- [Dart](https://dart.dev/) – Langage de programmation
 
-## 🛠️ Installation et test local (Web)
+## 📷 Aperçu de l'application
 
-```bash
-flutter pub get
-flutter build web
-cd build/web
-python -m http.server 8080
+![Aperçu de QVT Box](assets/logo-qvt.png)
+
+## ⚙️ Installation
+
+1. Clonez le dépôt :
+
+   ```bash
+   git clone https://github.com/Lamiabrc/QVT.git
+   cd QVT
